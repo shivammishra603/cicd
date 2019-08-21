@@ -7,8 +7,8 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Greeting
-          command: echo Hello, world.
+          name: Hello greeting
+          command: echo Hello, DevOps!
       - run:
-          name: Print the Current Time
+          name: Print the time
           command: date
