@@ -8,7 +8,6 @@ jobs:
       - checkout
       - run: echo "my first build!"
   
-  build:
     docker:
       - image: debian:stretch
 
